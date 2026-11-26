@@ -1,7 +1,7 @@
 """Full build: python tools/build.py OUT.iso"""
 import sys,os,glob,struct
 sys.path.insert(0,os.path.dirname(__file__))
-import naz,loctext,isonaz,font,bootimg
+import naz,loctext,isonaz,font,imgpatch
 ROOT=os.path.abspath(os.path.join(os.path.dirname(__file__),'..'))
 KO=os.path.join(ROOT,'translation','ko')
 
@@ -56,7 +56,7 @@ def main(out):
                 for x in loctext.decode_block(dd,b)[0]:
                     for p in x: keep.update(p)
     rep[sm]=font.build(naz.read(sm),hang,None)
-    rep[bootimg.NAME]=bootimg.build(naz.read(bootimg.NAME))
+    rep.update(imgpatch.build_all(naz.read))
     print('files',len(rep))
     print('naz',isonaz.build(out,rep))
 

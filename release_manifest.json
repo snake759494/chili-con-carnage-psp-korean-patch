@@ -1,12 +1,12 @@
 {
-    "version": "v1.2",
-    "asset": "ChiliConCarnage_KR_v1.2.xdelta",
-    "asset_size": 492852,
-    "asset_sha256": "62564938a23ab6788036c1e03af3a24224fb1a7cf3833c5cad37476c7367ba0c",
+    "version": "v1.3",
+    "asset": "ChiliConCarnage_KR_v1.3.xdelta",
+    "asset_size": 303007,
+    "asset_sha256": "0fe3782371bd8d14742b7def7a23a3d9e38f7c570ca7844bb207986b2be71620",
     "source_iso_size": 797081600,
     "source_iso_md5": "4d756980b0c67b5bb2faa1d15aa3f3c7",
     "source_iso_sha256": "1808b0f3e960b85e17a8510486a866c490a0afc141268ad58ff60bdc1ca02a45",
     "result_iso_size": 797372416,
-    "result_iso_md5": "d1587d20e0e590f24e76c764918c274e",
-    "result_iso_sha256": "86c04b212c21beb2c929b51663f85282fc0e8efb34064beaf0d3060abf975595"
+    "result_iso_md5": "e252d5cd7b8f6f3aee2cba30792cc31f",
+    "result_iso_sha256": "30870b3222a71aba0e1ddde36e1f501f1540b996311a0126e7fa4c146f54dfef"
 }
